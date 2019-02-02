@@ -72,3 +72,17 @@ body {
 .amarelo {
 	background: lightyellow;
 }
+
+.btn-cor{
+	float: left;
+	font-size: 8pt;
+	margin-top: 9px;
+	margin-left: 5px;
+	background-color: gray;
+	color: white;
+	border: none;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+}

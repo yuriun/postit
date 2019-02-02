@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<title>PostIt</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="funcao.js"></script>
 </head>
 <body>
 	<section id="boxInserir">
@@ -17,19 +19,25 @@
 	</section>
 
 	<section id="kanban">
-		<div class="postit amarelo">
+
+		<div id="div-1" class="postit amarelo">
 			<div class='close'>X</div>
-			<div class='title'>Tarefa Diária</div>
-			<!-- <button>Alterar Cor</button> -->
-			<textarea class='content'>
-				
-			</textarea>
-		</div>
-		<div class="postit verde">
-			<div class='close'>X</div>
-			<div class='title'>Tarefa Diária</div>
+			<div class='title'>
+				<span>Tarefa Diária</span>	
+				<button id="1" class='btn-cor'>Cor</button>
+			</div>
 			<textarea class='content'></textarea>
 		</div>
+		
+		<div id="div-2" class="postit verde">
+			<div class='close'>X</div>
+			<div class='title'>
+				<span>Tarefa Diária</span>	
+				<button id="2" class='btn-cor'>Cor</button>
+			</div>
+			<textarea class='content'></textarea>
+		</div>
+
 	</section>
 </body>
 </html>
